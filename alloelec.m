@@ -17,7 +17,7 @@ for j=1:simn
     if rawdat
         %% raw data
         load('edatatab.mat')
-        numrep=149;
+        numrep=150;
         numparty=size(edata,1);
     elseif simmu
         %% simulations
